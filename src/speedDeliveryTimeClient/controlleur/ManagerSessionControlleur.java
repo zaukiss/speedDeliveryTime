@@ -57,6 +57,7 @@ public class ManagerSessionControlleur extends UserSessionController {
 					try {
 						_sock.receive(receivePacket);
 						System.out.println("recieve : "+new String(receivePacket.getData()));
+						ManagerSessionModel.get_sharedInstance().addOrderToList(new String(receivePacket.getData()));
 						
 					} catch (IOException e) {
 						

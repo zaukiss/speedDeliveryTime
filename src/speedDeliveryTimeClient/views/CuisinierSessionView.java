@@ -23,8 +23,8 @@ public class CuisinierSessionView extends UserSessionView {
 	
 	
 	@Override
-	void buildCompoenents() {
-		// TODO Auto-generated method stub
+	protected void buildCompoenents() {
+		
 		
 	}
 

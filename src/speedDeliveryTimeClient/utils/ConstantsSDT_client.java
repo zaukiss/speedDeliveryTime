@@ -46,6 +46,7 @@ public class ConstantsSDT_client {
 	
 	
 	public static final String MANAGER_COMPONENT_LIST_ORDER ="listOrderPanel" ;
+	public static final String MANAGER_COMPONENT_PANEL_LIST ="panelList" ;
 	
 
 }

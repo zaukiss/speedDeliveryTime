@@ -20,5 +20,5 @@ public abstract class UserSessionView {
 
 		return null;
 	}
-	abstract void buildCompoenents();
+	abstract protected void buildCompoenents();
 }

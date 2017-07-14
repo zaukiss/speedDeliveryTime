@@ -21,7 +21,7 @@ public class LivreurSessionView extends UserSessionView {
 	}
 	
 	@Override
-	void buildCompoenents() {
+	protected void buildCompoenents() {
 		
 		
 	}
